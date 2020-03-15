@@ -1,4 +1,4 @@
-% Questo programma genera un segnale armonico (cui è possibile aggiungere anche del rumore)
+% Questo programma genera un segnale armonico (cui Ã¨ possibile aggiungere anche del rumore)
 % e produce lo spettro risultante
 
 % GENERA IL SEGNALE ARMONICO
@@ -29,7 +29,6 @@ for j=1:LK
 end
 figure(1), plot(x0,'k')
 title ('segnale ingresso')
-pause
 
 
 % CALCOLA VALORE MEDIO E VALORE EFFICACE
@@ -44,7 +43,6 @@ x0=x0+n;
 
 figure(2),  plot(x0,'k')
 title ('segnale rumoroso')
-pause
 
 
 
